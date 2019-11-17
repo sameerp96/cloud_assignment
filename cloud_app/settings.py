@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #my_apps
     'cloud_application',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

@@ -5,6 +5,7 @@ from django.db import models
 
 # Create your models here.
 class AirPollution(models.Model):
+    #Type = models.CharField(max_length=200)
     country = models.CharField(max_length=200)
     state = models.CharField(max_length=200)
     city = models.CharField(max_length=200)
@@ -13,4 +14,4 @@ class AirPollution(models.Model):
     
     def __str__(self):
         """Return a string representation of the model."""
-        return self.country
+        return self.pollutants
